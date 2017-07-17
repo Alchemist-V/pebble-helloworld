@@ -1,0 +1,35 @@
+{
+    "versionLabel": "1.0", 
+    "projectType": "rocky", 
+    "name": "vmv-helloworld", 
+    "messageKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "sdkVersion": "3", 
+    "capabilities": [], 
+    "appKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "longName": "vmv-helloworld", 
+    "displayName": "vmv-helloworld", 
+    "shortName": "vmv-helloworld", 
+    "main": {
+        "rockyjs": "src/rocky/index.js", 
+        "pkjs": "src/pkjs/index.js"
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "bb7dc1a2-31a0-4d14-bb9b-0c80ae0a2e4c"
+}
